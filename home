@@ -1,0 +1,237 @@
+<?php include './inc/header.inc.php'; 
+ ?>
+<title>UR Adda</title>
+
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container container-wide">
+    <!--content-->  
+    <div class="content" role="main">
+        <!--row-->
+        <div class="row">
+            <div class="col-sm-8">
+                <!--Menu-->
+                <div class="top-menu header">
+                    <ul class=" clearfix boxed" style="background:#506d68;">
+
+                        <li class="menu-level-0"><i class="header-icon"></i><span></span></li>
+                        
+                        <li class="menu-level-0"><a href="logout.php"><i class="logout-icon" title="Logout?"></i></a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <!--Ends menu-->
+
+       <!--row-->
+    	<div class="row">
+    		<div class="col-sm-12">
+    			<!--Menu-->
+    			<div class="top-menu">
+    				<ul class="dropdown clearfix boxed">
+    					<li class="menu-level-0"><a href="#"><i class="icon-menu"></i><span>Adda</span> </a></li>
+    					<li class="menu-level-0"><a href="profile.php?u=<?php echo "$user"; ?>"><i class="icon-menu icon-menu2"></i><span>Profile</span></a></li>
+    					<li class="menu-level-0"><a href="#"><i class="icon-menu icon-menu3"></i><span>Message</span></a></li>
+    					<li class="menu-level-0"><a href="./account_settings.php"><i class="icon-menu icon-menu4"></i><span>Settings</span></a></li>
+    					
+    				</ul>
+    				
+    			</div>
+            </div>
+        </div>        
+    			<!--Ends menu-->
+    			<!--Status box-->
+    			<div class="row" >
+    				<div class="col-sm-12 status">
+    					<div class="field_text field_textarea">
+    					<form>
+ 		   					<textarea style="height:100px;" id="message" placeholder="Speak your mood..."></textarea>
+ 		   					<span class="status-footer">
+ 		   						<ul class="clearfix status-icons">
+ 		   						<li class="menu-level-0"><a href="javascript:void(0)"><i class="status-menu post"></i></a></li>
+ 		   						<li class="menu-level-0"><a href="#"><i class="status-menu status-menu2"></i></a></li>
+ 		   						<li class="menu-level-0"><a href="#"><i class="status-menu status-menu3"></i></a></li>
+ 		   							
+ 		   						</ul>
+ 		   					</span>
+ 		   				</form>	
+						</div>
+    					
+    				</div>
+    				
+    			</div>
+    			<!--Ends status box-->
+    			<!--Post box-->
+    			<div class="row">
+    				<div class="col-sm-12 post-box tabs_framed styled">
+    					<div class="">
+    						<ul class="tabs clearfix">
+    							<li class="active"><a href="#recent" data-toggle="tab">Recent</a></li>
+    							<li><a href="#popular" data-toggle="tab">Popular</a></li>
+    						</ul>
+    						<!--Recent tab-->
+    						<div class="tab-content boxed clearfix">
+    							<div class="tab-pane fade in active" id="recent">
+    								<div class="inner clearfix">
+    									<div class="comment-list styled clearfix">
+    										<ol>
+        										<li class="comment">
+            										<div class="comment-body boxed">
+                										<div class="comment-arrow"></div>
+                										<div class="comment-avatar">
+                    										<div class="avatar">
+                        										<img src="res/temp/mahesh.png" alt="" />
+                    										</div>
+                										</div>
+                										<div class="comment-text">
+                    										<div class="comment-author clearfix">
+                        										<a href="#" class="link-author">Mahesh Nathwani</a>
+                    										</div>
+                    										<div class="comment-entry">
+                        										He made his film debut with a minor part in Back ti the Future Part II (1989). Many desktop publishing packages and web page editors now use Lorem Ipsum.
+                    										</div>
+                										</div>
+                										<div>
+                											<span class="post-footer">
+ 		   														<ul class="clearfix post-icons">
+ 		   															<li class="menu-level-0"><a href="#"><i class="post-icon post" title="Support"></i></a></li>
+ 		   															<li class="menu-level-0"><a href="#"><i title="comment" class="post-icon post-icon2"></i></a></li>
+ 		   							
+ 		   														</ul>
+ 		   													</span>
+                										</div>
+                										<div class="clear"></div>
+            										</div>
+        										</li>
+        										<li class="comment">
+            										<div class="comment-body boxed">
+                										<div class="comment-arrow"></div>
+                										<div class="comment-avatar">
+                    										<div class="avatar">
+                        										<img src="res/temp/avatar6.png" alt="" />
+                    										</div>
+                										</div>
+                										<div class="comment-text">
+                    										<div class="comment-author clearfix">
+                        										<a href="#" class="link-author">Jude Law</a>
+                    										</div>
+                    										<div class="comment-entry">
+                        										He made his film debut with a minor part in Back ti the Future Part II (1989). Many desktop publishing packages and web page editors now use Lorem Ipsum.
+                    										</div>
+                										</div>
+                										<div>
+                											<span class="post-footer">
+ 		   														<ul class="clearfix post-icons">
+ 		   															<li class="menu-level-0"><a href="#"><i class="post-icon post" title="Support"></i></a></li>
+ 		   															<li class="menu-level-0"><a href="#"><i title="comment" class="post-icon post-icon2"></i></a></li>
+ 		   							
+ 		   														</ul>
+ 		   													</span>
+                										</div>
+                										<div class="clear"></div>
+            										</div>
+        										</li>
+    										</ol>
+										</div>
+    								</div>
+    								
+    							</div>
+    							<!--ENDS recent tab-->
+    							<!--Popular tab-->
+    						
+    							<div class="tab-pane fade in active" id="popular">
+    								<div class="inner clearfix">
+    									<div class="comment-list styled clearfix">
+    										<ol>
+        										<li class="comment">
+            										<div class="comment-body boxed">
+                										<div class="comment-arrow"></div>
+                										<div class="comment-avatar">
+                    										<div class="avatar">
+                        										<img src="res/temp/avatar6.png" alt="" />
+                    										</div>
+                										</div>
+                										<div class="comment-text">
+                    										<div class="comment-author clearfix">
+                        										<a href="#" class="link-author">Jude Law</a>
+                    										</div>
+                    										<div class="comment-entry">
+                        										He made his film debut with a minor part in Back ti the Future Part II (1989). Many desktop publishing packages and web page editors now use Lorem Ipsum.
+                    										</div>
+                										</div>
+                										<div>
+                											<span class="post-footer">
+ 		   														<ul class="clearfix post-icons">
+ 		   															<li class="menu-level-0"><a href="#"><i class="post-icon post" title="Support"></i></a></li>
+ 		   															<li class="menu-level-0"><a href="#"><i title="comment" class="post-icon post-icon2"></i></a></li>
+ 		   							
+ 		   														</ul>
+ 		   													</span>
+                										</div>
+                										<div class="clear"></div>
+            										</div>
+        										</li>
+        										
+    										</ol>
+										</div>
+    								</div>
+    								
+    							</div>
+    						<!--ENDS Popular tab-->	
+    						</div>
+
+    						 	
+    					</div>
+    					
+    				</div>
+    				
+    			</div>
+    			<!--ENDS Post box-->
+    		</div>
+    	<!--Right part-->
+    	<div class="col-sm-4">
+    		<!-- Avatar Placeholder -->
+    <div class="widget-container widget_avatar boxed">
+        <div class="avatar-image"><img src="res/temp/avatar-image.jpg" alt="" /></div>
+        <div class="inner clearfix">
+            <div class="avatar"><img src="<?php echo "$profile_pic_db"; ?>" alt="" /></div>
+            <h5>Mahesh Nathwani</h5>
+            <span class="subtitle" id="info" ><?php echo "$info"; ?></span>
+                
+        </div>
+        <div class="post-meta-links">
+            <ul class="clearfix">
+                <li class="post-view"><a href="#"><span><i class="icon-post"></i>172</span></a></li>
+                <li class="post-comm"><a href="#"><span><i class="icon-post"></i>34</span></a></li>
+                <li class="post-like"><a href="#"><span><i class="icon-post"></i>210</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--/ Avatar Placeholder -->
+        <!-- search widget -->
+    <div class="widget-container widget_search styled boxed">
+        <div class="inner">
+            <form method="get" id="searchform2" action="#">
+                <div class="clearfix">
+                    <span class="btn"><input type="submit" value="Search" /></span>
+                    <div class="field_text"><input name="search" value="" type="text" placeholder="Search..." /></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/ search widget -->
+
+
+    	</div>	
+    	<!--EnDS right part-->
+    	</div>
+    	<!--row-->
+    </div>
+    <!--ENDS content-->
+
+    </div>
+    <!--/ container -->
+</body>
+</html>
